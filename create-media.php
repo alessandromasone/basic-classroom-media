@@ -1,6 +1,7 @@
 <?php
 
 require_once('connect.php');
+check_account();
 
 $titolo = $_POST["titolo"];
 $descrizione = $_POST["descrizione"];

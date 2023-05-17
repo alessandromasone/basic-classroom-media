@@ -1,4 +1,4 @@
-<?php require_once('connect.php'); ?>
+<?php require_once('connect.php'); check_account();?>
 
 
 <!DOCTYPE html>

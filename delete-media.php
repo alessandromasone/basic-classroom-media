@@ -1,6 +1,7 @@
 <?php
 
 require_once('connect.php');
+check_account();
 
 if(isset($_GET['id'])) {
     $sql = "SELECT * FROM media WHERE proprietario = " . $_SESSION['id'] . " AND " . "id = " . $_GET['id'];

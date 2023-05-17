@@ -23,6 +23,13 @@ function ritorno($link, $message = "")
     die();
 }
 
+function check_account() {
+    if (!isset($_SESSION['id'])) {
+        header("Location: account.php");
+        die();
+    }
+}
+
 if (isset($_GET['message'])) {
     echo '<p>'.$_GET['message'].'</p>';
 }

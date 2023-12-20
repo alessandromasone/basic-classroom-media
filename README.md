@@ -1,4 +1,4 @@
-# Basic Classroom Media
+# Basic classroom media
 
 Basic Classroom Media è una semplice applicazione web per la gestione di file multimediali in un contesto scolastico. Consente agli utenti di caricare, visualizzare ed eliminare file multimediali associati a specifici argomenti.
 
